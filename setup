@@ -1,0 +1,37 @@
+#!/bin/bash
+clear
+m="\033[0;1;36m"
+y="\033[0;1;37m"
+yy="\033[0;1;32m"
+yl="\033[0;1;33m"
+wh="\033[0m"
+
+echo -e "$y-------------------------------------------------------------$wh"
+echo -e "$y           Termux Script By MOCHVPN $wh"
+echo -e "$y-------------------------------------------------------------$wh"
+echo -e "$yy 1$y.Update & Upgrade"
+echo -e "$yy 2$y.Install Neofetch"
+echo -e "$yy 3$y.Install Speedtest"
+echo -e "$yy 4$y.Info"
+echo -e "$y-------------------------------------------------------------$wh"
+echo ""
+read -p "Pilih Menu [ 1 - 60 ] : " menu
+echo -e ""
+case $menu in
+1)
+upd
+;;
+2)
+neo
+;;
+3)
+test
+;;
+4)
+info
+;;
+*)
+clear
+menu
+;;
+esac
