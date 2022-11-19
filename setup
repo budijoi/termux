@@ -3,7 +3,7 @@ clear
 echo -e "$y-------------------------------------------------------------$wh"
 echo -e "$y           Termux Script By MOCHVPN $wh"
 echo -e "$y-------------------------------------------------------------$wh"
-echo -e "$yy 1$y.Update & Upgrade"
+echo -e "$yy 1$y.Install Basic Tools"
 echo -e "$yy 2$y.Install Neofetch"
 echo -e "$yy 3$y.Install Speedtest"
 echo -e "$yy 4$y.Info"
@@ -15,12 +15,3 @@ case $menu in
 1)
 upd
 ;;
-2)
-neo
-;;
-3)
-test
-;;
-4)
-info
-echo -e "Termux Script By MOCHVPN"
