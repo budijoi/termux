@@ -31,7 +31,6 @@ test
 info
 ;;
 *)
-clear
 menu
 ;;
 esac
