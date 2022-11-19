@@ -23,8 +23,3 @@ test
 ;;
 4)
 info
-*)
-clear
-menu
-;;
-esac
